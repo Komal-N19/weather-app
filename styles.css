@@ -13,12 +13,14 @@ h1{
     text-align: center;
     font-style: bold;
     
+    
+    
 }
 div{
     text-align: center;
     
 }
-h3{
+h3,h4{
     text-align: center;
 
 }
@@ -80,5 +82,15 @@ form{
 
     border-radius: 20px;
     
+    
+}
+.try-four {
+    border: 5px solid black;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
