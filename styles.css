@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: dodgerblue;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Sunset-Aesthetic-HD-Wallpaper-Free-download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    text-align: center;
+    font-style: bold;
+    
+}
+div{
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    font-style: bold;
+}
+.try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.one{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    
+}
+.two{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
+    
+}
+.try-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+.try-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.okay{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    height: 100px;
+
+    border-radius: 20px;
+    
+    
+}
