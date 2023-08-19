@@ -6,19 +6,29 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
 }
 
 h1{
     text-align: center;
     font-style: bold;
-    
-    
-    
 }
 div{
     text-align: center;
+}
+tempp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hello{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 5px;
     
+
 }
 h3,h4{
     text-align: center;

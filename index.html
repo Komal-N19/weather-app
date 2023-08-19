@@ -4,37 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>she-codes homework</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="index.js"></script>
 </head>
 <body>
     <h1 class="try-four">Check out weather at your place!</h1>
-    <form>
-        <label for="search">Enter your city</label>
-        <input type="search"
-        id="search" 
-        name="search" 
-        placeholder="Search...">
-        <button type="submit">Search</button>
-        
+    <h2 id="city"> London, United Kingdom</h2>
+    <h3 id="date">Friday, 18 August 2023</h3>
+    <h1 id="temperature">☁34°C</h1>
+    <div class="tempp">
+        <div class="hello" id="max">890</div>
+        <div class="hello"id="min">90</div>
+    </div>   
 
-    </form>
-    
-    
-    <h2><b> London, United Kingdom</b><br> Friday, 18 August 2023</h2>
-    <h1>🌤34°C</h1>
-    <h3><strong><u>✨Tip: Enjoy today's sunset✨</u></strong> </h3>
-    <h4><i>Updated as of 02:43pm</i></h4>
+    <h3 id="description"><strong><u>✨Enjoy today's sunset✨</u></strong> </h3>
+
     <div class="try">
-        <div class="one">Air quality Index: 36 </div>
-        <div class="one">Severity: Good Air </div>
-        <div class="one">Feels like 43°C</div>
+        <div class="one" id="feels">Feels like:43 </div>
+        <div class="one" id="humidity">Humidity </div>
+        <div class="one" id="pressure">Pressure</div>
     
     </div>
     <div class="try-two">
-        <div class="two">Wind 9km/h</div>
-        <div class="two">Visibility 8km</div>
-        <div class="two">Barometer 1004.00 mb</div>
+        <div class="two" id="wind">Wind Speed</div>
+        <div class="two" id="sunrise">Sunrise</div>
+        <div class="two" id="sunset">Sunset</div>
     </div>
     <div class="try-three">
         <span class="okay">Monday<br>37°C/28°C<br>☀<br>Mostly sunny</span>
