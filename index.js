@@ -38,12 +38,12 @@ axios.get(apiUrl).then(displayTemperature);
 }
 function handleSubmit(event){
     event.preventDefault();
-    cityInputElement = document.querySelector("city-input");
+    let cityInputElement = document.querySelector("#city-input");
     search(cityInputElement.value);
-    console.log(cityInputElement.value);
+    
 }
 
 search("New York");
 
-let form = document.querySelector("search-form");
+let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
